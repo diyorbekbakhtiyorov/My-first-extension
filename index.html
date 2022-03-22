@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css"
+      integrity="sha512-10/jx2EXwxxWqCLX/hHth/vu2KY3jCF70dCQB8TSgNjbCVAC/8vai53GfMDrO2Emgwccf2pJqxct9ehpzG+MTw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <title>DiorCeek - Extension</title>
+  </head>
+  <body>
+    <div class="main">
+      <div class="container" id="container">
+        <div class="timeSec">
+          <div id="time" class="clock"></div>
+        </div>
+        <div class="name">
+          <div class="names">
+            <h2 class="helloText">Salom</h2>
+            <div class="welcome welcomeName"></div>
+            <form action="" class="js-form form">
+              <input
+                type="text"
+                class="nameInput"
+                placeholder="Enter Name ..."
+              />
+            </form>
+          </div>
+          <button onclick="removeItem()" class="removeName welcome" title="Delete This Name">
+            <i class="fa-solid fa-arrow-rotate-right"></i>
+          </button>
+        </div>
+      </div>
+    </div>
+    <div class="quotes">
+      <p id="title"></p>
+      <p id="author"></p>
+    </div>
+  </body>
+  <script src="./js/clock.js"></script>
+  <script src="./js/image.js"></script>
+  <script src="./js/welcome.js"></script>
+  <script src="./js/quotes.js"></script>
+</html>
